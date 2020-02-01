@@ -7,6 +7,7 @@ func SumSlice(numbers []int) int {
 	for i := 0; i < len(numbers); i++ {
 		result += numbers[i]
 	}
+	
 	return result
 }
 
