@@ -20,7 +20,7 @@ func TestSumSlice2(t *testing.T) {
 
 func TestSum1(t *testing.T) {
 	res := Sum(1, 2, 3, 4, 5)
-	expected :=    15
+	expected := 15
 	if expected != res {
 		t.Fatalf("unexpected result %d insteadof %d", res, expected)
 	}
